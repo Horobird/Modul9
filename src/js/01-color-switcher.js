@@ -5,7 +5,7 @@ const buttonStartColor = document.querySelector('button[data-start]');
 const buttonStopColor = document.querySelector('button[data-stop]');
 //ставим кнопки посредине экрана
 buttonStartColor.style = `width:80px ; height: 45px; margin: 45% 2% 45% 45%`;
-buttonStopColor.style = `width:80px ; height: 40px;margin 45% 45% 45% 2%`;
+buttonStopColor.style = `width:80px ; height: 45px;margin 45% 45% 45% 2%`;
 //стартовое положение кнопки Stop недоступно
 buttonStopColor.disabled = true;
 //вешаем слушателей на кнопки
